@@ -17,12 +17,7 @@ function App() {
     setCutLength("");
   };
   const reset = () => {
-    setTodos([]);
-    setCutLength("");
-    setMainLenth(0);
-    setmainCut2(0);
-    setloading(false);
-    setTotalCutLengths([]);
+    window.location.reload(true);
   };
 
 const calculate = () => {
